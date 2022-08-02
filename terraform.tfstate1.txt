@@ -1,0 +1,20 @@
+
+
+ #using MAP={
+    "owner1"= {"ami"="ami-076e3a557efe1aa9c", 
+                "instance_type":"t2.micro",
+                "name":"abhi-1"
+                }
+    
+    "owner3"={"ami"="ami-05c8ca4485f8b138a",
+                "instance_type":"t2.micro",
+                "name":"abhi-2"
+                }
+}
+
+# value pass, SET variable
+SET = [ "abhi1","abhi2" ]
+
+
+ins_name = ["ABC" , "abc"]
+ami = ["ami-08df646e18b182346" , "ami-05c8ca4485f8b138a"]
